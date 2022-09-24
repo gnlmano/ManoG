@@ -1,6 +1,6 @@
 
 # My Data Science project portfolio.
-## * WORK IN PROGRESS: NOT ALL PROJECTS HAVE BEEN UPLOADED.*
+## *WORK IN PROGRESS: NOT ALL PROJECTS HAVE BEEN UPLOADED*
 ## Academic Projects:
 As part of the cirriculum for Data Science at the Barcelona School of Economics, I have completed a few machine learning assignments. The details and links to the repositories are below.
 
