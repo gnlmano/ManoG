@@ -13,6 +13,7 @@ As part of the cirriculum for Data Science at the Barcelona School of Economics,
 ---
 
 # 2. [Probability of Death Prediction using K-Nearest Neighbours](https://github.com/gnlmano/Probability-of-Death-KNN)
+![](/images/mimic.png)
 1.  In this project, we have to predict the probability of death of a patient that is entering an Intensive Care Unit, using K-Nearest Neighbor models.
 2. The vitals of a patient are provided and additional data on comorbidities are given. Using the comorbidities data, I target encode each comorbidity to create a mortality proxy. 
 3. The KNN algorithm overfits on the training data achieving a perfect classification. However, the test-sample performance is poor at around 80%. 
