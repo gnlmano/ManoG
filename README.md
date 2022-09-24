@@ -16,6 +16,6 @@ As part of the cirriculum for Data Science at the Barcelona School of Economics,
 2. The vitals of a patient are provided and additional data on comorbidities are given. Using the comorbidities data, I target encode each comorbidity to create a mortality proxy. 
 3. The KNN algorithm overfits on the training data achieving a perfect classification. However, the test-sample performance is poor at around 80%. 
 4. GridSearching for optimal value of K is redundant in this case as using $K = \sqrt{N}$ without tuning yields an almost perfect classifier. As KNN is a lazy algorithm, it doesn't make sense to search wide ranges of K.
-5. To overcome over-fitting, I try removing redundant and highly correlated features. But this does not improve the problem.
+5. To overcome over-fitting, I try removing redundant and highly correlated features. But this does not improve the classification. I hypothesize that the KNN algorith is not well-suited for this dataset. Using a SVM classifier without any tuning on the same pipeline yields a test-set accuracy aboe 90% (SVM repo will be uploaded soon).
 
 ---
