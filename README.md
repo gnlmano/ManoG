@@ -21,3 +21,6 @@ As part of the cirriculum for Data Science at the Barcelona School of Economics,
 5. To overcome over-fitting, I try removing redundant and highly correlated features. But this does not improve the classification. I hypothesize that the KNN algorith is not well-suited for this dataset. Using a SVM classifier without any tuning on the same pipeline yields a test-set accuracy aboe 90% (SVM repo will be uploaded soon).
 
 ---
+remote_theme: pages-themes/merlot@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
