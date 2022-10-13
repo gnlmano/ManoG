@@ -13,6 +13,12 @@ As part of the cirriculum for Data Science at the Barcelona School of Economics,
 5. Simple models using minimal features perform best on the test set. Feature engineering to create new features and adding more features degrades performance.
 6. Regarding feature importance, the best performing features are non-linear making interpretation obscure. 
 
+## Key Takeaways:
+1. Performing log transformation before polynomial transformation yields better results.
+2. Mean imputing performs poorly compared to median for this dataset. Median imputing outperforms KNN and Iterative imputing.
+3. The features created using feature engineering did not improve the model. Might require more domain expertise to create informative features.
+4. Simpler models outperform complicated ones. 
+
 ---
 
 # 2. [Forest Cover Prediction Using Logistic Regression](https://github.com/gnlmano/Forest-Cover-Prediction-Logistic-Regression) 
